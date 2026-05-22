@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Catálogo Mayorista — PetDistri Nacional</title>
+  <title>Catálogo Mayorista — Patagonia y Pampa</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -11,14 +11,14 @@
         extend: {
           colors: {
             brand: {
-              900: '#0a1628',
-              800: '#0f2044',
-              700: '#1a3260',
-              600: '#1e3a8a',
-              500: '#2563eb',
-              400: '#3b82f6',
-              100: '#dbeafe',
-              50:  '#eff6ff',
+              900: '#1a2108',
+              800: '#2b3610',
+              700: '#3c4c18',
+              600: '#4e641f',
+              500: '#6d7e2d',
+              400: '#8a9e3a',
+              100: '#e5ebca',
+              50:  '#f2f5e5',
             }
           },
           fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] }
@@ -65,7 +65,7 @@
             </svg>
           </div>
           <span class="text-white font-bold text-lg tracking-tight leading-none">
-            PetDistri<span class="text-brand-400">Nacional</span>
+            Patagonia y <span class="text-brand-400">Pampa</span>
           </span>
         </a>
         <nav class="hidden md:flex items-center gap-1">
@@ -291,9 +291,9 @@
                 <path d="M4.5 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Zm15 0a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM12 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm-5.5 9c0-3.038 2.462-5.5 5.5-5.5s5.5 2.462 5.5 5.5H6.5ZM2 17c0-2.21 1.567-4.062 3.666-4.48A6.48 6.48 0 0 0 5.5 15.5c0 .515.063 1.015.182 1.5H2Zm20 0h-3.682c.119-.485.182-.985.182-1.5 0-.88-.19-1.716-.526-2.47C19.96 13.426 22 15.516 22 17Z"/>
               </svg>
             </div>
-            <span class="text-white font-bold text-lg tracking-tight">PetDistri<span class="text-brand-400">Nacional</span></span>
+            <span class="text-white font-bold text-lg tracking-tight">Patagonia y <span class="text-brand-400">Pampa</span></span>
           </div>
-          <p class="text-sm leading-relaxed mb-5">Distribuidora mayorista de productos para mascotas. Operamos a nivel nacional desde Buenos Aires.</p>
+          <p class="text-sm leading-relaxed mb-5">Distribuidora mayorista de productos para mascotas. Operamos desde Bariloche, Patagonia.</p>
           <div class="flex gap-3">
             <a href="#" class="w-9 h-9 bg-white/5 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
@@ -338,7 +338,7 @@
         </div>
       </div>
       <div class="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-        <p>© 2025 PetDistri Nacional S.R.L. — CUIT 30-00000000-0 — Todos los derechos reservados.</p>
+        <p>© 2025 Patagonia y Pampa — Todos los derechos reservados.</p>
         <p class="text-gray-600">Distribuidora exclusivamente B2B · No vendemos al público general</p>
       </div>
     </div>
@@ -660,7 +660,7 @@
       if (items.length === 0) return;
 
       const commerce = commerceInput.value.trim() || 'un comercio interesado';
-      const phone    = '5491134952798'; // reemplazar con número real
+      const phone    = '5492944559022';
 
       const lines = items.map(({ product: p, qty }) =>
         `• ${qty}x ${p.nombre} (${p.marca} — ${p.categoria})`
